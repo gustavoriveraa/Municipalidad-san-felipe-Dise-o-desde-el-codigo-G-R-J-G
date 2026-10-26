@@ -1,0 +1,25 @@
+/* UIcons 4.0.0 · Solid Rounded · https://www.flaticon.com/uicons
+   Iconos: UIcons by Flaticon. Uso con atribución. */
+
+@font-face {
+  font-family: "uicons-solid-rounded";
+  src: url("uicons-solid-rounded.woff2") format("woff2");
+  font-display: swap;
+}
+
+[class*="fi-sr-"]::before {
+  font-family: "uicons-solid-rounded" !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fi-sr-document::before { content: "\e6de"; }
+.fi-sr-clipboard-list::before { content: "\e4c5"; }
+.fi-sr-form::before { content: "\e908"; }
+.fi-sr-handshake::before { content: "\ea28"; }
+.fi-sr-map::before { content: "\ec9c"; }
